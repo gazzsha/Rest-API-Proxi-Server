@@ -1,0 +1,95 @@
+2024-03-11 19:54:14 - Starting Application using Java 17.0.10 with PID 13412 (D:\school_21_projects\Java_Learn\SpringIdea\PESTApiJSONPlaceHolder\Application\target\classes started by theex in D:\school_21_projects\Java_Learn\SpringIdea\PESTApiJSONPlaceHolder\Application)
+2024-03-11 19:54:14 - No active profile set, falling back to 1 default profile: "default"
+2024-03-11 19:54:15 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-11 19:54:15 - Finished Spring Data repository scanning in 19 ms. Found 2 JPA repository interfaces.
+2024-03-11 19:54:15 - Tomcat initialized with port 8189 (http)
+2024-03-11 19:54:15 - Starting service [Tomcat]
+2024-03-11 19:54:15 - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-11 19:54:15 - Initializing Spring embedded WebApplicationContext
+2024-03-11 19:54:15 - Root WebApplicationContext: initialization completed in 889 ms
+2024-03-11 19:54:15 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-11 19:54:15 - HikariPool-2 - Starting...
+2024-03-11 19:54:15 - HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@7cad0d0b
+2024-03-11 19:54:15 - HikariPool-2 - Start completed.
+2024-03-11 19:54:15 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-11 19:54:15 - HHH000026: Second-level cache disabled
+2024-03-11 19:54:16 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-11 19:54:16 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-03-11 19:54:16 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-11 19:54:16 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-11 19:54:17 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@28b697cc, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1edf762d, org.springframework.security.web.context.SecurityContextHolderFilter@27c6e5d2, org.springframework.security.web.header.HeaderWriterFilter@2cced77, org.springframework.security.web.authentication.logout.LogoutFilter@3881cbdc, gazzsha.sprint.security.application.config.JwtRequestFilter@4d417b8d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@16fb620c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@73b982f1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@529ad911, org.springframework.security.web.session.SessionManagementFilter@cbaf426, org.springframework.security.web.access.ExceptionTranslationFilter@3bb157b9, org.springframework.security.web.access.intercept.AuthorizationFilter@4a368f9d]
+2024-03-11 19:54:17 - LiveReload server is running on port 35729
+2024-03-11 19:54:17 - Tomcat started on port 8189 (http) with context path '/api'
+2024-03-11 19:54:17 - Started Application in 2.879 seconds (process running for 38.227)
+2024-03-11 19:54:17 - Condition evaluation unchanged
+2024-03-11 19:54:29 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-11 19:54:29 - HikariPool-2 - Shutdown initiated...
+2024-03-11 19:54:29 - HikariPool-2 - Shutdown completed.
+2024-03-11 19:54:34 - Starting Application using Java 17.0.10 with PID 1572 (D:\school_21_projects\Java_Learn\SpringIdea\PESTApiJSONPlaceHolder\Application\target\classes started by theex in D:\school_21_projects\Java_Learn\SpringIdea\PESTApiJSONPlaceHolder\Application)
+2024-03-11 19:54:34 - No active profile set, falling back to 1 default profile: "default"
+2024-03-11 19:54:34 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-11 19:54:34 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-11 19:54:35 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-11 19:54:35 - Finished Spring Data repository scanning in 161 ms. Found 2 JPA repository interfaces.
+2024-03-11 19:54:37 - Tomcat initialized with port 8189 (http)
+2024-03-11 19:54:37 - Starting service [Tomcat]
+2024-03-11 19:54:37 - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-11 19:54:37 - Initializing Spring embedded WebApplicationContext
+2024-03-11 19:54:37 - Root WebApplicationContext: initialization completed in 2548 ms
+2024-03-11 19:54:37 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-11 19:54:37 - HikariPool-1 - Starting...
+2024-03-11 19:54:37 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@471b960e
+2024-03-11 19:54:37 - HikariPool-1 - Start completed.
+2024-03-11 19:54:37 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-11 19:54:37 - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-11 19:54:38 - HHH000026: Second-level cache disabled
+2024-03-11 19:54:38 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-11 19:54:38 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-03-11 19:54:39 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-11 19:54:39 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-11 19:54:42 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@73dd1fa6, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4fab1c3f, org.springframework.security.web.context.SecurityContextHolderFilter@736bf715, org.springframework.security.web.header.HeaderWriterFilter@54ab73e9, org.springframework.security.web.authentication.logout.LogoutFilter@6fbb82c6, gazzsha.sprint.security.application.config.JwtRequestFilter@1f45741e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@481c33d9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@cf88f72, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@b22bf23, org.springframework.security.web.session.SessionManagementFilter@649c8a34, org.springframework.security.web.access.ExceptionTranslationFilter@683ccffd, org.springframework.security.web.access.intercept.AuthorizationFilter@4c71178e]
+2024-03-11 19:54:43 - LiveReload server is running on port 35729
+2024-03-11 19:54:43 - Tomcat started on port 8189 (http) with context path '/api'
+2024-03-11 19:54:43 - Started Application in 9.9 seconds (process running for 11.168)
+2024-03-11 19:54:50 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-11 19:54:50 - Initializing Servlet 'dispatcherServlet'
+2024-03-11 19:54:50 - Completed initialization in 1 ms
+2024-03-11 19:54:50 - Call: createAuthToken() with argument[s] = [JwtRequest[username=admin, password=100]]
+2024-03-11 19:54:51 - Completion: gazzsha.sprint.security.application.controller.AuthController.createAuthToken() with result = 200
+2024-03-11 19:55:04 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-11 19:55:04 - HikariPool-1 - Shutdown initiated...
+2024-03-11 19:55:04 - HikariPool-1 - Shutdown completed.
+2024-03-11 19:55:08 - Starting Application using Java 17.0.10 with PID 12616 (D:\school_21_projects\Java_Learn\SpringIdea\PESTApiJSONPlaceHolder\Application\target\classes started by theex in D:\school_21_projects\Java_Learn\SpringIdea\PESTApiJSONPlaceHolder\Application)
+2024-03-11 19:55:08 - No active profile set, falling back to 1 default profile: "default"
+2024-03-11 19:55:08 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-11 19:55:08 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-11 19:55:09 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-11 19:55:10 - Finished Spring Data repository scanning in 430 ms. Found 2 JPA repository interfaces.
+2024-03-11 19:55:12 - Tomcat initialized with port 8189 (http)
+2024-03-11 19:55:12 - Starting service [Tomcat]
+2024-03-11 19:55:12 - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-11 19:55:12 - Initializing Spring embedded WebApplicationContext
+2024-03-11 19:55:12 - Root WebApplicationContext: initialization completed in 4039 ms
+2024-03-11 19:55:12 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-11 19:55:13 - HikariPool-1 - Starting...
+2024-03-11 19:55:13 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@64ad604a
+2024-03-11 19:55:13 - HikariPool-1 - Start completed.
+2024-03-11 19:55:13 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-11 19:55:13 - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-11 19:55:13 - HHH000026: Second-level cache disabled
+2024-03-11 19:55:14 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-11 19:55:14 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-03-11 19:55:15 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-11 19:55:15 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-11 19:55:17 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@12c68769, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5c3dc95, org.springframework.security.web.context.SecurityContextHolderFilter@404699cf, org.springframework.security.web.header.HeaderWriterFilter@7c8f0915, org.springframework.security.web.authentication.logout.LogoutFilter@40a8c0e1, gazzsha.sprint.security.application.config.JwtRequestFilter@3853c354, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5cba2279, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@41bcd27a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@57f14222, org.springframework.security.web.session.SessionManagementFilter@47e75149, org.springframework.security.web.access.ExceptionTranslationFilter@e41183, org.springframework.security.web.access.intercept.AuthorizationFilter@49d36661]
+2024-03-11 19:55:18 - LiveReload server is running on port 35729
+2024-03-11 19:55:18 - Tomcat started on port 8189 (http) with context path '/api'
+2024-03-11 19:55:18 - Started Application in 10.752 seconds (process running for 12.088)
+2024-03-11 19:55:39 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-11 19:55:39 - Initializing Servlet 'dispatcherServlet'
+2024-03-11 19:55:39 - Completed initialization in 0 ms
+2024-03-11 19:55:39 - Call: createAuthToken() with argument[s] = [JwtRequest[username=admin, password=100]]
+2024-03-11 19:55:40 - Completion: gazzsha.sprint.security.application.controller.AuthController.createAuthToken() with result = 200
+2024-03-11 19:56:15 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-11 19:56:15 - HikariPool-1 - Shutdown initiated...
+2024-03-11 19:56:15 - HikariPool-1 - Shutdown completed.

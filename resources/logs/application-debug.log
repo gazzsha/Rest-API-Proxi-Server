@@ -1,0 +1,34 @@
+2024-03-11 19:52:21 - Starting Application using Java 17.0.10 with PID 16440 (D:\school_21_projects\Java_Learn\SpringIdea\PESTApiJSONPlaceHolder\Application\target\classes started by theex in D:\school_21_projects\Java_Learn\SpringIdea\PESTApiJSONPlaceHolder\Application)
+2024-03-11 19:52:21 - No active profile set, falling back to 1 default profile: "default"
+2024-03-11 19:52:21 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-11 19:52:21 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-11 19:52:22 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-11 19:52:22 - Finished Spring Data repository scanning in 221 ms. Found 2 JPA repository interfaces.
+2024-03-11 19:52:23 - Tomcat initialized with port 8189 (http)
+2024-03-11 19:52:23 - Starting service [Tomcat]
+2024-03-11 19:52:23 - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-11 19:52:23 - Initializing Spring embedded WebApplicationContext
+2024-03-11 19:52:23 - Root WebApplicationContext: initialization completed in 2532 ms
+2024-03-11 19:52:24 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-11 19:52:24 - HikariPool-1 - Starting...
+2024-03-11 19:52:24 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@68338c20
+2024-03-11 19:52:24 - HikariPool-1 - Start completed.
+2024-03-11 19:52:24 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-11 19:52:24 - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-11 19:52:24 - HHH000026: Second-level cache disabled
+2024-03-11 19:52:25 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-11 19:52:25 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-03-11 19:52:26 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-11 19:52:26 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-11 19:52:28 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@425a1d46, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@30cafb60, org.springframework.security.web.context.SecurityContextHolderFilter@3a44563b, org.springframework.security.web.header.HeaderWriterFilter@6b0854dc, org.springframework.security.web.authentication.logout.LogoutFilter@564902be, gazzsha.sprint.security.application.config.JwtRequestFilter@2b5aeab7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2df85041, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@e0a7bf6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@8e7cbb5, org.springframework.security.web.session.SessionManagementFilter@2c247a52, org.springframework.security.web.access.ExceptionTranslationFilter@5e34e3, org.springframework.security.web.access.intercept.AuthorizationFilter@6e4acbff]
+2024-03-11 19:52:29 - LiveReload server is running on port 35729
+2024-03-11 19:52:29 - Tomcat started on port 8189 (http) with context path '/api'
+2024-03-11 19:52:29 - Started Application in 8.38 seconds (process running for 9.736)
+2024-03-11 19:52:54 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-11 19:52:54 - Initializing Servlet 'dispatcherServlet'
+2024-03-11 19:52:54 - Completed initialization in 1 ms
+2024-03-11 19:52:54 - Call: createAuthToken() with argument[s] = [JwtRequest[username=admin, password=100]]
+2024-03-11 19:52:54 - Completion: gazzsha.sprint.security.application.controller.AuthController.createAuthToken() with result = 200
+2024-03-11 19:53:35 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-11 19:53:35 - HikariPool-1 - Shutdown initiated...
+2024-03-11 19:53:35 - HikariPool-1 - Shutdown completed.
