@@ -42,7 +42,7 @@ user | 100 | ROLE_USER |
 
 ## Стек
 
-+ Java
++ Java 17
 + Spring Boot
 + Spring Data
 + Spring Security
