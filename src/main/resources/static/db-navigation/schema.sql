@@ -23,7 +23,7 @@ CREATE TABLE security_schema.users_roles
     FOREIGN KEY (role_id) REFERENCES security_schema.roles (id)
 );
 
-INSERT INTO security_schema.roles (name)
+INSERT INTO security_schema.roles(name)
 VALUES ('ROLE_USER'),
        ('ROLE_ADMIN'),
        ('ROLE_POSTS'),

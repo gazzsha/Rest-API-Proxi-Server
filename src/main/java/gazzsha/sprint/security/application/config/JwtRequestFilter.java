@@ -4,6 +4,8 @@ package gazzsha.sprint.security.application.config;
 import gazzsha.sprint.security.application.utils.JWTTokenUtils;
 import io.jsonwebtoken.ExpiredJwtException;
 import io.jsonwebtoken.JwtException;
+import io.jsonwebtoken.MalformedJwtException;
+import io.jsonwebtoken.UnsupportedJwtException;
 import io.jsonwebtoken.security.SignatureException;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
@@ -38,8 +40,8 @@ public class JwtRequestFilter extends OncePerRequestFilter {
             jwt = authHeader.substring(7);
             try {
                 username = jwtTokenUtils.getUsername(jwt);
-            } catch (ExpiredJwtException | SignatureException exception) {
-                handlerExceptionResolver.resolveException(request, response, null, exception);
+            } catch (MalformedJwtException | SignatureException | ExpiredJwtException |
+                     UnsupportedJwtException exception) {
             }
 
         }

@@ -1,31 +1,19 @@
 package gazzsha.sprint.security.application.exception.handler;
 
 
-import gazzsha.sprint.security.application.exception.ExceptionWeb;
-import io.jsonwebtoken.ExpiredJwtException;
 import io.jsonwebtoken.JwtException;
-import io.jsonwebtoken.SignatureException;
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.validation.ValidationException;
+import io.jsonwebtoken.MalformedJwtException;
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.experimental.FieldDefaults;
 import org.springframework.http.*;
-import org.springframework.security.access.AccessDeniedException;
-import org.springframework.security.authentication.AuthenticationCredentialsNotFoundException;
 import org.springframework.security.core.AuthenticationException;
-import org.springframework.web.ErrorResponse;
 import org.springframework.web.ErrorResponseException;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.reactive.function.client.WebClientException;
 import org.springframework.web.reactive.function.client.WebClientResponseException;
-import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
-
-import java.net.URI;
-import java.util.Objects;
 
 @ControllerAdvice
 @AllArgsConstructor
@@ -56,6 +44,16 @@ public class ExceptionHandlerRest {
     @ExceptionHandler(JwtException.class)
     @ResponseBody
     public ResponseEntity<?> handleJwtException(JwtException exception) {
+        ProblemDetail problemDetail = ProblemDetail.forStatusAndDetail(HttpStatus.FORBIDDEN,
+                exception.getMessage());
+        problemDetail.setTitle("Failed authentication");
+        return new ResponseEntity<>(new ErrorResponseException(HttpStatus.FORBIDDEN, problemDetail, null).getBody(), HttpStatus.FORBIDDEN);
+    }
+
+
+    @ExceptionHandler(MalformedJwtException.class)
+    @ResponseBody
+    public ResponseEntity<?> handleJitIncorrectException(MalformedJwtException exception) {
         ProblemDetail problemDetail = ProblemDetail.forStatusAndDetail(HttpStatus.FORBIDDEN,
                 exception.getMessage());
         problemDetail.setTitle("Failed authentication");

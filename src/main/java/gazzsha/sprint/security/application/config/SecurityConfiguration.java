@@ -2,6 +2,7 @@ package gazzsha.sprint.security.application.config;
 
 
 import gazzsha.sprint.security.application.service.UserService;
+import io.jsonwebtoken.MalformedJwtException;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
 import org.springframework.context.annotation.Bean;
@@ -54,6 +55,8 @@ public class SecurityConfiguration {
                                 .anyRequest().permitAll()
                 ).sessionManagement((session) -> session
                         .sessionCreationPolicy(SessionCreationPolicy.STATELESS))
+                .exceptionHandling(httpSecurityExceptionHandlingConfigurer ->
+                new HttpStatusEntryPoint(HttpStatus.UNAUTHORIZED))
                 .addFilterBefore(jwtRequestFilter, UsernamePasswordAuthenticationFilter.class);
         return httpSecurity.build();
     }

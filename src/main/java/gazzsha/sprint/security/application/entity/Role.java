@@ -16,7 +16,7 @@ public class Role {
     @Column(name = "id")
     Integer id;
 
-    @Column(name = "role")
+    @Column(name = "name")
     String roleName;
 
 }
